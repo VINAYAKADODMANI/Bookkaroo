@@ -1,0 +1,29 @@
+{{ details.length }} Register Models Found
+<!-- <span>{{details.UserID}}</span> -->
+<section style="display: flex; background-color: gainsboro;">
+  @for (registermodel of details; track registermodel) {
+  <div class="registermodel">
+    <!-- <ng-container *ngIf="editingUser?.userID === registermodel.userID; else showData"> -->
+      <p>User ID: {{ registermodel.userID }}</p>
+      <p>UserName: {{ registermodel.userName }}</p>
+      <p>Email: {{ registermodel.email }}</p>
+      <!-- <p>Role: {{ registermodel.isOwner }}</p> -->
+      <!-- <p>Password: {{ registermodel.password }}</p> -->
+      <p>Created Date: {{registermodel.createdDate | date:"medium" }}</p>
+      <p>Updated Date: {{registermodel.updatedDate | date:"medium"}}</p>
+      <!-- <button (click)="saveChanges(registermodel)">Save</button>
+      <button (click)="cancelEdit()">Cancel</button> -->
+    <!-- </ng-container> -->
+  </div>
+
+  <!-- <ng-template #showData>
+    <p>User ID: {{ registermodel.userID }}</p>
+    <p>UserName: {{ registermodel.userName }}</p>
+    <p>Email: {{ registermodel.email }}</p>
+    <p>Created Date: {{registermodel.createdDate | date:"medium" }}</p>
+    <p>Updated Date: {{registermodel.updatedDate | date:"medium"}}</p>
+    <p>Role: {{ registermodel.isOwner }}</p> -->
+    <!-- <button (click)="editUser(registermodel)">Edit</button>
+  </ng-template> -->
+  }
+</section>

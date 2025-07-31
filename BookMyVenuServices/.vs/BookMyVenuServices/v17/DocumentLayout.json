@@ -1,0 +1,335 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\slot\\models\\slots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|solutionrelative:slot\\models\\slots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\userservices\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|solutionrelative:userservices\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\userservices\\models\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|solutionrelative:userservices\\models\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\userservices\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|solutionrelative:userservices\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\userservices\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|solutionrelative:userservices\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\userservices\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|solutionrelative:userservices\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\slot\\repository\\islotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|solutionrelative:slot\\repository\\islotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\slot\\repository\\slotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|solutionrelative:slot\\repository\\slotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\slot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|solutionrelative:slot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED165B22-3311-9DBD-D066-46A083AB7545}|VenueServices\\VenueServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\venueservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED165B22-3311-9DBD-D066-46A083AB7545}|VenueServices\\VenueServices.csproj|solutionrelative:venueservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\userservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|solutionrelative:userservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\userservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|solutionrelative:userservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED165B22-3311-9DBD-D066-46A083AB7545}|VenueServices\\VenueServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\venueservices\\venueservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED165B22-3311-9DBD-D066-46A083AB7545}|VenueServices\\VenueServices.csproj|solutionrelative:venueservices\\venueservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\userservices\\helpers\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BFF8E1-0432-1324-CAE9-66CAF29BCBBD}|UserServices\\UserServices.csproj|solutionrelative:userservices\\helpers\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|c:\\users\\i19-labuser227502\\desktop\\bookmyvenuservices\\slot\\slot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3476BEC-654F-99CD-B74A-B2C311C387B3}|Slot\\Slot.csproj|solutionrelative:slot\\slot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:56:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:194:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Models\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "UserServices\\Models\\ForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Models\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "UserServices\\Models\\ForgotPasswordRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:42:14.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "userRepository.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Repository\\userRepository.cs",
+              "RelativeDocumentMoniker": "UserServices\\Repository\\userRepository.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Repository\\userRepository.cs",
+              "RelativeToolTip": "UserServices\\Repository\\userRepository.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAcwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:40:37.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "UserServices\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Models\\Users.cs",
+              "RelativeToolTip": "UserServices\\Models\\Users.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:38:22.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISlotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Repository\\ISlotRepository.cs",
+              "RelativeDocumentMoniker": "Slot\\Repository\\ISlotRepository.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Repository\\ISlotRepository.cs",
+              "RelativeToolTip": "Slot\\Repository\\ISlotRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:37:36.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Slots.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Models\\Slots.cs",
+              "RelativeDocumentMoniker": "Slot\\Models\\Slots.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Models\\Slots.cs",
+              "RelativeToolTip": "Slot\\Models\\Slots.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA9wBAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:35:32.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\VenueServices\\Program.cs",
+              "RelativeDocumentMoniker": "VenueServices\\Program.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\VenueServices\\Program.cs",
+              "RelativeToolTip": "VenueServices\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwDEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:23:08.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Program.cs",
+              "RelativeDocumentMoniker": "UserServices\\Program.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Program.cs",
+              "RelativeToolTip": "UserServices\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:22:10.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\appsettings.json",
+              "RelativeDocumentMoniker": "UserServices\\appsettings.json",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\appsettings.json",
+              "RelativeToolTip": "UserServices\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T11:21:03.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "UserServices\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "UserServices\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:21:35.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VenueServices",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\VenueServices\\VenueServices.csproj",
+              "RelativeDocumentMoniker": "VenueServices\\VenueServices.csproj",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\VenueServices\\VenueServices.csproj",
+              "RelativeToolTip": "VenueServices\\VenueServices.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-30T11:20:49.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Program.cs",
+              "RelativeDocumentMoniker": "Slot\\Program.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Program.cs",
+              "RelativeToolTip": "Slot\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwBIAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:38:02.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Helpers\\TokenHelper.cs",
+              "RelativeDocumentMoniker": "UserServices\\Helpers\\TokenHelper.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Helpers\\TokenHelper.cs",
+              "RelativeToolTip": "UserServices\\Helpers\\TokenHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:20:52.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Helpers\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "UserServices\\Helpers\\TokenResponse.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\UserServices\\Helpers\\TokenResponse.cs",
+              "RelativeToolTip": "UserServices\\Helpers\\TokenResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:21:21.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SlotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Repository\\SlotRepository.cs",
+              "RelativeDocumentMoniker": "Slot\\Repository\\SlotRepository.cs",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Repository\\SlotRepository.cs",
+              "RelativeToolTip": "Slot\\Repository\\SlotRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:52:03.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Slot",
+              "DocumentMoniker": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Slot.csproj",
+              "RelativeDocumentMoniker": "Slot\\Slot.csproj",
+              "ToolTip": "C:\\Users\\i19-labuser227502\\Desktop\\BookMyVenuServices\\Slot\\Slot.csproj",
+              "RelativeToolTip": "Slot\\Slot.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-30T09:51:54.645Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1217,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 95,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

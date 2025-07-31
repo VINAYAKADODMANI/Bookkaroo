@@ -1,0 +1,27 @@
+<h3 style="display: block; text-align: center;">Venues Registered</h3>
+
+<section>
+  @for (v of venue; track v.id) {
+    <div class="venue">
+      @if (v.images && v.images.length > 0) {
+        <div class="venue-images">
+          @for (img of v.images; track img) {
+            <img [src]="img" alt="Venue Image" />
+          }
+        </div>
+      }
+      <h2>{{ v.name }}</h2>
+      <p><strong>Venue Type:</strong> {{ v.venueType }}</p> <!-- NEW -->
+      <p><strong>Description:</strong> {{ v.description }}</p>
+      <p><strong>Address:</strong> {{ v.address }}</p>
+      <p><strong>City:</strong> {{ v.city }}</p>
+      <p><strong>Capacity:</strong> {{ v.capacity }}</p>
+      <p><strong>Amenities:</strong> {{ v.amenities.join(', ') }}</p>
+      <div class="venue-buttons">
+        <button (click)="editVenue(v.id)">Edit</button>
+        <button class="delete" [routerLink]="['/delete-venue', v.id]">Delete</button>
+        <button (click)="slotManagement(v.id)">Create Slot</button>
+      </div>
+    </div>
+  }
+</section>

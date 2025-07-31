@@ -1,0 +1,40 @@
+<nav class="navbar">
+    <div class="logo">
+      <img src="/assets/images/logo.png" alt="Venue Booking Logo">
+    </div>
+  
+    <ul class="nav-items">
+      <li class="search-box">
+        <!-- <input type="text" placeholder="Search..." /> -->
+        <input
+        type="text"
+        placeholder="Search..."
+        [(ngModel)]="searchTerm"
+        (keyup.enter)="performSearch()"
+      />
+      
+      </li>
+      
+
+      
+  
+      <!-- Logged-out view -->
+      @if (lc.getItem('status') === 'loggedout') {
+        <li><a routerLink="/home" (click)="navigateToHome()">Home</a></li>
+        <li><a routerLink="/register" (click)="navigateToRegister()">Register</a></li>
+        <li><a routerLink="/login" (click)="navigateToLogin()">Login</a></li>
+        <li><a routerLink="/about" (click)="navigateToAbout()">About</a></li>
+      }
+  
+      <!-- Logged-in view -->
+      @else {
+        <li><a routerLink="/Owner-Dashboard">Home</a></li>
+        <li><a routerLink="/add-venue">Add Venue</a></li>
+        <li><a routerLink="/home" (click)="navigateToHome()">Book Venue</a></li>
+        <li><a routerLink="/view-slots">Slots</a></li>
+        <li><a routerLink="/about" (click)="navigateToAbout()">About</a></li>
+        <li><a (click)="logoutHandler()" class="logout-btn">Logout</a></li>
+      }
+    </ul>
+  </nav>
+  

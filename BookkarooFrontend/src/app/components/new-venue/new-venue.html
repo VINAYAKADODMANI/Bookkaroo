@@ -1,0 +1,57 @@
+<section class="venue-form-wrapper">
+  <h2 class="form-title">Register Your Venue</h2>
+
+  <form (ngSubmit)="saveHandler()" #venueForm="ngForm">
+    <label>
+      Venue Name <span class="required">*</span>
+      <input type="text" [(ngModel)]="v.name" name="name" required />
+    </label>
+
+    <label>
+      Venue Type <span class="required">*</span>
+      <select [(ngModel)]="v.venueType" name="venueType" required>
+        <option value="" disabled selected>Select a type</option>
+        <option value="Conference Hall">Conference Hall</option>
+        <option value="Wedding Hall">Wedding Hall</option>
+        <option value="Auditorium">Auditorium</option>
+        <option value="Outdoor Garden">Outdoor Garden</option>
+        <option value="Stadium">Stadium</option>
+        <option value="Banquet Hall">Banquet Hall</option>
+      </select>
+    </label>
+    
+
+
+    <label>
+      Description <span class="required">*</span>
+      <textarea [(ngModel)]="v.description" name="description" required></textarea>
+    </label>
+
+    <label>
+      Address <span class="required">*</span>
+      <input type="text" [(ngModel)]="v.address" name="address" required />
+    </label>
+
+    <label>
+      City <span class="required">*</span>
+      <input type="text" [(ngModel)]="v.city" name="city" required />
+    </label>
+
+    <label>
+      Capacity
+      <input type="number" [(ngModel)]="v.capacity" name="capacity" />
+    </label>
+
+    <label>
+      Amenities
+      <input type="text" [(ngModel)]="v.amenitiesInput" name="amenitiesInput" />
+    </label>
+
+    <label>
+      Image 
+      <input type="text" [(ngModel)]="v.imageUrlsInput" name="imageUrlsInput" />
+    </label>
+
+    <button type="submit" [disabled]="!venueForm.form.valid">Submit</button>
+  </form>
+</section>

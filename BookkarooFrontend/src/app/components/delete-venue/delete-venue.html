@@ -1,0 +1,14 @@
+<section class="delete-wrapper" @if(venue)>
+    <p>Are you sure you want to delete the venue <strong>"{{ venue!.name }}"</strong>?</p>
+  
+    <label>
+      Enter venue name to confirm:
+      <input type="text" [(ngModel)]="confirmName" />
+    </label>
+  
+    <div class="button-group">
+      <button (click)="deleteVenue()">Delete</button>
+      <button (click)="cancel()">Cancel</button>
+    </div>
+  </section>
+  

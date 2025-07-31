@@ -1,0 +1,5 @@
+C:\Users\i19-labuser227502\Desktop\BookMyVenuServices\SlotServiceTest\obj\Debug\net8.0\SlotServiceTest.csproj.AssemblyReference.cache
+C:\Users\i19-labuser227502\Desktop\BookMyVenuServices\SlotServiceTest\obj\Debug\net8.0\SlotServiceTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i19-labuser227502\Desktop\BookMyVenuServices\SlotServiceTest\obj\Debug\net8.0\SlotServiceTest.AssemblyInfoInputs.cache
+C:\Users\i19-labuser227502\Desktop\BookMyVenuServices\SlotServiceTest\obj\Debug\net8.0\SlotServiceTest.AssemblyInfo.cs
+C:\Users\i19-labuser227502\Desktop\BookMyVenuServices\SlotServiceTest\obj\Debug\net8.0\SlotServiceTest.csproj.CoreCompileInputs.cache

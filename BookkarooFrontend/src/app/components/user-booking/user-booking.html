@@ -1,0 +1,67 @@
+<div class="container my-5">
+  <!-- Venue Card (Optional) -->
+  <!--
+  <div class="card mb-4 shadow-sm border-0">
+    <img [src]="venueDetails?.photoUrl" class="card-img-top" alt="Venue Photo">
+    <div class="card-body">
+      <h4 class="card-title">{{ venueDetails?.name }}</h4>
+      <p class="card-text text-muted">Capacity: {{ venueDetails?.capacity }}</p>
+      <p class="card-text fw-bold text-primary">Rate per slot: ₹{{ slotRate }}</p>
+    </div>
+  </div>
+  -->
+
+  <!-- Date Picker -->
+  <div class="card ">
+    <div class="card-body">
+      <label for="datePicker" class="form-label fw-semibold">Select Date:</label>
+      <input
+        type="date"
+        id="datePicker"
+        class="form-control"
+        [(ngModel)]="selectedDate"
+        (change)="onDateSelected()"
+      />
+    </div>
+  </div>
+
+  <!-- Slots -->
+  <div *ngIf="slots.length > 0" class="card shadow-sm border-0">
+    <div class="card-body">
+      <h5 class="fw-bold mb-3">Available Time Slots for <span class="text-primary">{{ selectedDate }}</span>:</h5>
+
+      <div class="d-flex flex-wrap gap-3">
+        <div
+          *ngFor="let slot of slots"
+          class="rounded px-3 py-2 text-center slot-tile border"
+          [ngClass]="{
+            'bg-success text-white border-success': slot.customerid === null && !isSelected(slot),
+            'bg-secondary text-white border-secondary': slot.customerid !== null,
+            'bg-warning text-dark border-warning': isSelected(slot)
+          }"
+          (click)="toggleSlotSelection(slot)"
+          style="cursor: pointer; min-width: 100px;"
+        >
+          <strong>{{ slot.starttime }}</strong>
+        </div>
+      </div>
+
+      <!-- Total and Pay Button -->
+      <div class="mt-4 d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">Total: <span class="text-success fw-bold">₹{{ totalAmount }}</span></h5>
+        <button
+          class="btn btn-lg btn-primary"
+          [disabled]="selectedSlots.size === 0"
+          (click)="proceedToPayment()"
+        >
+          <i class="bi bi-credit-card"></i> Proceed to Pay
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- No Slots Message -->
+  <div *ngIf="selectedDate && slots.length === 0" class="alert alert-info mt-4">
+    No slots available for <strong>{{ selectedDate }}</strong>.
+  </div>
+</div>

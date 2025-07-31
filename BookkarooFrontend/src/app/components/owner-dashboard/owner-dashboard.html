@@ -1,0 +1,27 @@
+<h3 style="text-align: center;">Venues Registered</h3>
+
+<section *ngIf="venue.length > 0; else noVenues">
+  <div *ngFor="let v of venue; trackBy: trackById" class="venue">
+    <div *ngIf="v.images && v.images.length > 0" class="venue-images">
+      <img *ngFor="let img of v.images" [src]="img" alt="Venue Image" />
+    </div>
+
+    <h2>{{ v.name }}</h2>
+    <p><strong>Venue Type:</strong> {{ v.venueType }}</p>
+    <p><strong>Description:</strong> {{ v.description }}</p>
+    <p><strong>Address:</strong> {{ v.address }}</p>
+    <p><strong>City:</strong> {{ v.city }}</p>
+    <p><strong>Capacity:</strong> {{ v.capacity }}</p>
+    <p><strong>Amenities:</strong> {{ v.amenities.join(', ') }}</p>
+
+    <div class="venue-buttons">
+      <button (click)="editVenue(v.id)">Edit</button>
+      <button class="delete" [routerLink]="['/delete-venue', v.id]">Delete</button>
+      <button (click)="slotManagement(v.id)">Create Slot</button>
+    </div>
+  </div>
+</section>
+
+<ng-template #noVenues>
+  <p style="text-align: center;">No venues registered yet.</p>
+</ng-template>
