@@ -1,0 +1,88 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.venue {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 520px; 
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+/* .venue:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+} */
+
+.venue h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  color: #2c3e50;
+}
+
+.venue p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.venue p strong {
+  color: #333;
+}
+
+.venue-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.venue-images img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.venue-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.venue-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.venue-buttons button.edit {
+  background-color: #3498db;  
+  color: white;
+}
+
+.venue-buttons button.edit:hover {
+  background-color: #2980b9;
+}
+
+.venue-buttons button.delete {
+  background-color: #e74c3c; 
+  color: white;
+}
+
+.venue-buttons button.delete:hover {
+  background-color: #c0392b;
+}
+

@@ -1,0 +1,159 @@
+<div class="booking-container">
+  Create New Slot :{{venueIdFromRoute}}
+  <div class="booking-card">
+    <!-- Header Section -->
+    <div class="card-header">
+
+      <button class="back-button" (click)="goBack()" title="Back to Dashboard">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+      </button>
+      <h1 class="title">Manage Booking Slots</h1>
+      <p class="subtitle">Set up your available time slots for venue bookings</p>
+
+    </div>
+
+    <!-- Venue Photo Section 
+    <div class="venue-photo-section">
+      <div class="photo-container">
+        <img [src]="venuePhoto" alt="Venue Photo" class="venue-image">
+        <div class="photo-overlay">
+          <span class="photo-label">Venue Preview</span>
+        </div>
+      </div>
+    </div>
+-->
+    <!-- Success Message -->
+    <!-- <div *ngIf="submitSuccess" class="success-message">
+      <div class="success-content">
+        <svg class="success-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        <span>Slot created successfully! Redirecting to dashboard...</span>
+      </div>
+    </div> -->
+
+    <!-- Form Section -->
+    <div class="form-section">
+      <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()" class="booking-form">
+
+        <!-- Date Fields Row -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="slotdate" class="form-label required">From Date</label>
+            <!-- <input
+              type="date"
+              id="slotdate"
+              formControlName="slotdate"
+              class="form-input"
+              [class.error]="isFieldInvalid('slotdate')"
+            > -->
+            <input type="date" id="slotdate" formControlName="slotdate" class="form-input" [attr.min]="minFromDate"
+              [class.error]="isFieldInvalid('slotdate')" />
+            <div *ngIf="getFieldError('slotdate')" class="error-message">
+              {{ getFieldError('slotdate') }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="toDate" class="form-label">To Date</label>
+            <input type="date" id="toDate" formControlName="toDate" class="form-input" [attr.min]="minToDate"
+              [class.error]="isFieldInvalid('toDate')" />
+            <small class="form-help">Leave empty to use same as From Date</small>
+            <div *ngIf="getFieldError('toDate')" class="error-message">
+              {{ getFieldError('toDate') }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Time Fields Row -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="starttime" class="form-label required">Start Time</label>
+            <input type="time" id="starttime" formControlName="starttime" class="form-input"
+              [class.error]="isFieldInvalid('starttime')">
+            <div *ngIf="getFieldError('starttime')" class="error-message">
+              {{ getFieldError('starttime') }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="endtime" class="form-label required">End Time</label>
+            <input type="time" id="endtime" formControlName="endtime" class="form-input"
+              [class.error]="isFieldInvalid('endtime')">
+            <div *ngIf="getFieldError('endtime')" class="error-message">
+              {{ getFieldError('endtime') }}
+            </div>
+          </div>
+        </div>
+
+        <!-- rate and Duration Row -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="rate" class="form-label required">Amount ( &#8377; )</label>
+            <input type="number" id="rate" formControlName="rate" min="100" class="form-input"
+              [class.error]="isFieldInvalid('rate')" placeholder="0.00">
+            <div *ngIf="getFieldError('rate')" class="error-message">
+              {{ getFieldError('rate') }}
+            </div>
+          </div>
+
+          <!-- 
+          <div class="form-group">
+            <label for="venueid" class="form-label required"> Venue Id</label>
+            <input type="number" id="venueid" formControlName="venueid" class="form-input"
+              [class.error]="isFieldInvalid('venueid')" placeholder="1">
+            <div *ngIf="getFieldError('venueid')" class="error-message">
+              {{ getFieldError('venueid') }}
+            </div>
+          </div>
+        -->
+
+          <div class="form-group">
+            <label for="duration" class="form-label required">Duration (Hour)</label>
+            <input type="number" id="duration" formControlName="duration" min="1" max="3" class="form-input"
+              [class.error]="isFieldInvalid('duration')" placeholder="1">
+            <small class="form-help">Max 3 (hours)</small>
+            <div *ngIf="getFieldError('duration')" class="error-message">
+              {{ getFieldError('duration') }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Form-level Error Message -->
+        <div *ngIf="getFormError()" class="form-error-message">
+          {{ getFormError() }}
+        </div>
+
+        <!-- Submit Error Message -->
+        <div *ngIf="submitError" class="submit-error-message">
+          <svg class="error-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          {{ submitError }}
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="form-actions">
+          <button type="button" (click)="resetForm()" class="btn btn-secondary" [disabled]="isSubmitting">
+            Reset Form
+          </button>
+
+          <button type="submit" class="btn btn-primary" [disabled]="isSubmitting || bookingForm.invalid">
+            <span *ngIf="isSubmitting" class="loading-spinner"></span>
+            <span *ngIf="!isSubmitting">Generate Slot</span>
+            <span *ngIf="isSubmitting">Creating...</span>
+          </button>
+          <!-- <button type="button" class="btn btn-info" (click)="viewSlotHandler()">View Slots</button> -->
+          <!-- <button type="button" class="btn btn-danger" (click)="deleteHandler()">Delete Slots</button> -->
+          <!-- <button type="button" (click)="paymentHandler()">Payment</button> -->
+        </div>
+      </form>
+
+    </div>
+
+
+  </div>
+</div>

@@ -1,0 +1,43 @@
+<section class="edit-form-wrapper">
+    <h2 class="form-title">Edit Venue</h2>
+  
+    <form (ngSubmit)="updateHandler()" #editForm="ngForm">
+      <label>
+        Venue Name *
+        <input type="text" [(ngModel)]="venue.name" name="name" required />
+      </label>
+  
+      <label>
+        Description *
+        <textarea [(ngModel)]="venue.description" name="description" required></textarea>
+      </label>
+  
+      <label>
+        Address *
+        <input type="text" [(ngModel)]="venue.address" name="address" required />
+      </label>
+  
+      <label>
+        City *
+        <input type="text" [(ngModel)]="venue.city" name="city" required />
+      </label>
+  
+      <label>
+        Capacity
+        <input type="number" [(ngModel)]="venue.capacity" name="capacity" />
+      </label>
+  
+      <label>
+        Amenities
+        <input type="text" [(ngModel)]="venue.amenities" name="amenities" />
+      </label>
+  
+      <label>
+        Images
+        <input type="text" [(ngModel)]="venue.images" name="images" />
+      </label>
+  
+      <button type="submit" [disabled]="!editForm.form.valid">Update</button>
+    </form>
+  </section>
+  

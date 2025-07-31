@@ -1,0 +1,141 @@
+/* Base styles */
+.about-page {
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    background-color: #fafafa;
+  }
+  
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #f8ede3, #e3f2fd);
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 36px;
+    color: #5e548e;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Mission Section */
+  .mission {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  .mission h2 {
+    font-size: 28px;
+    color: #6c63ff;
+    margin-bottom: 20px;
+  }
+  .mission p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* How it Works */
+  .how-it-works {
+    background-color: #f0f4f8;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .how-it-works h2 {
+    font-size: 28px;
+    color: #0097a7;
+    margin-bottom: 40px;
+  }
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .step {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    width: 250px;
+  }
+  .step h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .step p {
+    font-size: 14px;
+    color: #555;
+  }
+  /* Common Hover Animation for Steps and Team Cards */
+.step,
+.member {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+/* On Hover: Lift slightly and enhance shadow */
+.step:hover,
+.member:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  background-color: #f9f9ff; /* subtle pastel hover background */
+}
+.step:hover {
+    border-left: 4px solid #6c63ff;
+  }
+  
+  .member:hover {
+    border-left: 4px solid #d86f8b;
+  }
+  
+  /* Team Section */
+  .team {
+    background-color: #fff5f8;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .team h2 {
+    font-size: 28px;
+    color: #d86f8b;
+    margin-bottom: 30px;
+  }
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .member {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  }
+  .member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .member h4 {
+    margin: 0;
+    color: #444;
+  }
+  .member p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .steps, .team-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

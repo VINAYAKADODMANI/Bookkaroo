@@ -1,0 +1,109 @@
+
+SlotTemp
+CREATE TABLE Slots (
+    SlotId INT PRIMARY KEY,
+    venueid NVARCHAR(100) NOT NULL,
+    slotdate NVARCHAR(50) NOT NULL,
+    todate NVARCHAR(50) NOT NULL,
+    starttime NVARCHAR(50) NOT NULL,
+    endtime NVARCHAR(50) NOT NULL,
+    duration INT NOT NULL,
+    rate FLOAT NOT NULL
+);
+
+slots table
+
+CREATE TABLE slots (
+    slotno INT PRIMARY KEY,
+    venueid NVARCHAR(100), -- Adjust size as needed
+    slotdate DATE,
+    enddate DATE,
+    starttime TIME,
+    endtime TIME,
+    duration INT,
+    rate FLOAT,
+    customerid NVARCHAR(100), -- Adjust size as needed
+    bookingdate DATETIME
+);
+
+users
+
+CREATE TABLE Users (
+    UserID INT IDENTITY(1,1) PRIMARY KEY,
+    UserName VARCHAR(30) NOT NULL,
+    email VARCHAR(30) NOT NULL,
+    password VARCHAR(10) NOT NULL,
+    isOwner VARCHAR(30) NOT NULL,
+    CreatedDate DATETIME NOT NULL,
+    UpdatedDate DATETIME NOT NULL
+);
+
+
+
+
+after creating the slots and SlotTemp  table create this trigger
+
+
+CREATE TRIGGER createslot
+ON SlotTemp
+AFTER INSERT
+AS
+BEGIN
+    DECLARE @venueid VARCHAR(100);
+    DECLARE @slotdateStr VARCHAR(20);
+    DECLARE @todateStr VARCHAR(20);
+    DECLARE @starttimeStr VARCHAR(10);
+    DECLARE @endtimeStr VARCHAR(10);
+    DECLARE @duration INT; -- in HOURS
+    DECLARE @rate FLOAT;
+    DECLARE cur CURSOR FOR
+        SELECT venueid, slotdate, todate, starttime, endtime, duration, rate
+        FROM inserted;
+    OPEN cur;
+    FETCH NEXT FROM cur INTO @venueid, @slotdateStr, @todateStr, @starttimeStr, @endtimeStr, @duration, @rate;
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        DECLARE @startdate DATE = CAST(@slotdateStr AS DATE);
+        DECLARE @enddate DATE = CAST(@todateStr AS DATE);
+        DECLARE @starttime TIME = CAST(@starttimeStr AS TIME);
+        DECLARE @endtime TIME = CAST(@endtimeStr AS TIME);
+        DECLARE @currentDate DATE = @startdate;
+        WHILE @currentDate <= @enddate
+        BEGIN
+            DECLARE @currStart TIME = @starttime;
+            DECLARE @currEnd TIME;
+            WHILE 1 = 1
+            BEGIN
+                SET @currEnd = DATEADD(HOUR, @duration, @currStart);
+                -- Exit if @currEnd goes beyond the day's endtime
+                IF @currEnd > @endtime BREAK;
+                -- Insert if slot doesn't already exist
+                IF NOT EXISTS (
+                    SELECT 1 FROM Slots
+                    WHERE venueid = @venueid
+                      AND slotdate = @currentDate
+                      AND starttime = @currStart
+                )
+                BEGIN
+                    INSERT INTO Slots (
+                        venueid, slotdate, enddate, starttime, endtime,
+                        duration, rate, customerid, bookingdate
+                    )
+                    VALUES (
+                        @venueid, @currentDate, @currentDate, @currStart, @currEnd,
+                        @duration, @rate, NULL, NULL
+                    );
+                END
+                -- Prepare next slot start
+                SET @currStart = @currEnd;
+            END
+            -- Next day
+            SET @currentDate = DATEADD(DAY, 1, @currentDate);
+        END
+        FETCH NEXT FROM cur INTO @venueid, @slotdateStr, @todateStr, @starttimeStr, @endtimeStr, @duration, @rate;
+    END
+    CLOSE cur;
+    DEALLOCATE cur;
+    --TRUNCATE TABLE SlotTemp;
+END;
+

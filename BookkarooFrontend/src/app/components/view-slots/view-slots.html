@@ -1,0 +1,63 @@
+<div class="container my-5">
+  <h3 class="mb-4 text-primary">🗂️ Slot Creation Entries</h3>
+
+  <!-- Loading Spinner -->
+  <div *ngIf="isLoading" class="text-center my-5">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <!-- No Entries -->
+  <div *ngIf="!isLoading && slotTemps.length === 0" class="alert alert-warning">
+    No pending slot entries.
+  </div>
+
+  <!-- Slot Table -->
+  <div *ngIf="!isLoading && slotTemps.length > 0" class="table-responsive shadow-sm border rounded">
+    <div class="d-none d-md-flex bg-light fw-semibold border-bottom py-2 px-3">
+      <div class="col-md-2">Venue</div>
+      <div class="col-md-2">Open Date</div>
+      <div class="col-md-2">Close Date</div>
+      
+      <div class="col-md-1">Start Time</div>
+      <div class="col-md-1">End Time</div>
+      <div class="col-md-1">Duration</div>
+      <div class="col-md-1">Rate</div>
+      <div class="col-md-1 text-end">Action</div>
+    </div>
+
+    <div
+      *ngFor="let s of slotTemps"
+      class="d-flex flex-column flex-md-row align-items-start align-items-md-center border-bottom py-3 px-3"
+    >
+      <div class="col-md-2 mb-2 mb-md-0">
+        <strong class="d-md-none">Venue:</strong> {{ getVenueNameById(s.venueid) }}
+      </div>
+      <div class="col-md-2 mb-2 mb-md-0">
+        <strong class="d-md-none">Open Date:</strong> {{ s.slotdate }}
+      </div>
+      <div class="col-md-2 mb-2 mb-md-0">
+        <strong class="d-md-none">CloseDate:</strong> {{ s.todate }}
+      </div>
+     
+      <div class="col-md-1 mb-1 mb-md-0">
+        <strong class="d-md-none">Start Time:</strong> {{ s.starttime }}
+      </div>
+      <div class="col-md-1 mb-1 mb-md-0">
+        <strong class="d-md-none">End Time:</strong> {{ s.endtime }}
+      </div>
+      <div class="col-md-1 mb-2 mb-md-0">
+        <strong class="d-md-none">Duration:</strong> {{ s.duration }}
+      </div>
+      <div class="col-md-1 mb-2 mb-md-0">
+        <strong class="d-md-none">Amount:</strong> ₹{{ s.rate }}
+      </div>
+      <div class="col-md-1 text-end">
+        <button class="btn btn-sm btn-danger" (click)="deleteTempSlot(s)">
+          <i class="bi bi-trash"></i> Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

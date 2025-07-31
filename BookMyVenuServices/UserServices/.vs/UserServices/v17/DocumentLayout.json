@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\UserServices.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserServices.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Filters\\User.Servics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Filters\\User.Servics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Filters\\LogFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Filters\\LogFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\tsconfig.spec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\tsconfig.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:14:28.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.Servics.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Filters\\User.Servics.cs",
+              "RelativeDocumentMoniker": "Filters\\User.Servics.cs",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Filters\\User.Servics.cs",
+              "RelativeToolTip": "Filters\\User.Servics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:09:46.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:05:57.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogFilter.cs",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Filters\\LogFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\LogFilter.cs",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\Filters\\LogFilter.cs",
+              "RelativeToolTip": "Filters\\LogFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:04:05.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserServices.csproj.user",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\UserServices.csproj.user",
+              "RelativeDocumentMoniker": "UserServices.csproj.user",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\repos\\UserServices\\UserServices\\UserServices.csproj.user",
+              "RelativeToolTip": "UserServices.csproj.user",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-07-28T05:04:01.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tsconfig.spec.json",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\tsconfig.spec.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\angular\\UserServices\\tsconfig.spec.json",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\tsconfig.spec.json",
+              "RelativeToolTip": "..\\..\\..\\angular\\UserServices\\tsconfig.spec.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T05:01:58.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\tsconfig.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\angular\\UserServices\\tsconfig.json",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\tsconfig.json",
+              "RelativeToolTip": "..\\..\\..\\angular\\UserServices\\tsconfig.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T05:01:58.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tsconfig.app.json",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\tsconfig.app.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\angular\\UserServices\\tsconfig.app.json",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\tsconfig.app.json",
+              "RelativeToolTip": "..\\..\\..\\angular\\UserServices\\tsconfig.app.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T05:01:58.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\README.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\angular\\UserServices\\README.md",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\README.md",
+              "RelativeToolTip": "..\\..\\..\\angular\\UserServices\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-07-28T05:01:57.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\package.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\angular\\UserServices\\package.json",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\package.json",
+              "RelativeToolTip": "..\\..\\..\\angular\\UserServices\\package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T05:01:57.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\package-lock.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\angular\\UserServices\\package-lock.json",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\package-lock.json",
+              "RelativeToolTip": "..\\..\\..\\angular\\UserServices\\package-lock.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T05:01:57.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\angular.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\angular\\UserServices\\angular.json",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\angular.json",
+              "RelativeToolTip": "..\\..\\..\\angular\\UserServices\\angular.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T05:01:57.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\.gitignore",
+              "RelativeDocumentMoniker": "..\\..\\..\\angular\\UserServices\\.gitignore",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\.gitignore",
+              "RelativeToolTip": "..\\..\\..\\angular\\UserServices\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-28T05:01:56.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\.editorconfig",
+              "RelativeDocumentMoniker": "..\\..\\..\\angular\\UserServices\\.editorconfig",
+              "ToolTip": "C:\\Users\\i19-labuser223502\\source\\angular\\UserServices\\.editorconfig",
+              "RelativeToolTip": "..\\..\\..\\angular\\UserServices\\.editorconfig",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-28T05:01:56.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

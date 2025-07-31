@@ -1,0 +1,257 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    .password-wrapper {
+      position: relative;
+    }
+
+    .toggle-password {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+      user-select: none;
+    }
+    .input-group-text {
+      border-radius: 8px;
+      background: #f8f9fa;
+      border: 1px solid #dfe6e9;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .input-group-text:hover {
+      background: #e9ecef;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-container">
+    <h2>Welcome Back</h2>
+    <p class="subtitle">Log in to book your perfect venue</p>
+
+    <form (ngSubmit)="login()" #loginForm="ngForm">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required [(ngModel)]="loginData.email" />
+
+      <label for="password">Password</label>
+<div class="password-wrapper">
+  <input
+    [type]="showPassword ? 'text' : 'password'"
+    id="password"
+    name="password"
+    required
+    [(ngModel)]="loginData.password" />
+
+  <span class="input-group-text toggle-password" (click)="togglePassword()">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+      <circle cx="12" cy="12" r="3"></circle>
+    </svg>
+  </span>
+</div>
+
+
+      <button type="submit">Login</button>
+    </form>
+
+    <p style="margin-top: 10px; cursor: pointer;">
+      <a (click)="saveHandler()" href="" routerLink="/forgot-password">Forgot Password?</a>
+    </p>
+  </div>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-title {
+      font-weight: 700;
+      color: #2c3e50;
+    }
+
+    .form-label {
+      font-weight: 500;
+      color: #34495e;
+    }
+
+    .form-control {
+      border-radius: 8px;
+      padding: 12px;
+      border: 1px solid #dfe6e9;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .form-control:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+    }
+
+    .form-control.is-valid {
+      border-color: #28a745;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right calc(0.375em + 0.1875rem) center;
+      background-size: 1.5rem;
+    }
+
+    .form-control.is-invalid {
+      border-color: #dc3545;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right calc(0.375em + 0.1875rem) center;
+      background-size: 1.5rem;
+    }
+
+    .input-group-text {
+      border-radius: 8px;
+      height: 48px;
+      background: #f8f9fa;
+      border: 1px solid #dfe6e9;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .input-group-text:hover {
+      background: #e9ecef;
+    }
+
+    .btn-primary {
+      border-radius: 8px;
+      padding: 12px;
+      font-weight: 600;
+      background: #007bff;
+      border: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn-primary:hover {
+      background: #0056b3;
+      transform: translateY(-2px);
+    }
+
+    .btn-primary:disabled {
+      background: #6c757d;
+      cursor: not-allowed;
+    }
+
+    .form-text {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+
+    .invalid-feedback {
+      font-size: 0.9rem;
+      color: #dc3545;
+    }
+
+    .login-link {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .login-link:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="card shadow p-4">
+          
+          <div class="card-body">
+            <h2 class="card-title text-center mb-3">Welcome Back</h2>
+            <p class="text-center text-muted mb-4">Log in to book your perfect venue</p>
+            <form (ngSubmit)="login()" #loginForm="ngForm">
+              <!-- Username -->
+              <div class="mb-4">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required [(ngModel)]="loginData.email" />
+              </div>
+         
+              <!-- Password -->
+              <div class="mb-4">
+                <label for="password" class="form-label">Password</label>
+                <div class="input-group">
+                  <input
+                    [type]="showPassword ? 'text' : 'password'"
+                    id="password"
+                    name="password"
+                    class="form-control"
+                    required
+                    [(ngModel)]="loginData.password"
+                    
+                  />
+                  <span class="input-group-text" (click)="togglePassword()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                  </span>
+                </div>
+                
+              </div>
+
+              <!-- Submit Button -->
+              
+              <button type="submit">Login</button>
+            </form>
+        
+            <p style="margin-top: 10px; cursor: pointer;">
+              <a (click)="saveHandler()" href="" routerLink="/forgot-password">Forgot Password?</a>
+            </p>
+              <!-- Login link -->
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
